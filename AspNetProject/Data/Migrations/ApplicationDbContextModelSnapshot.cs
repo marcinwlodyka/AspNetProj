@@ -212,7 +212,7 @@ namespace AspNetProject.Data.Migrations
                         {
                             Id = 1,
                             BookId = 1,
-                            BorrowDate = new DateTime(2024, 1, 11, 22, 7, 55, 586, DateTimeKind.Local).AddTicks(5782),
+                            BorrowDate = new DateTime(2024, 1, 13, 21, 53, 1, 850, DateTimeKind.Local).AddTicks(3461),
                             UserId = "a18be9c0-aa65-4af8-bd17-00bd9344e571"
                         });
                 });
@@ -247,13 +247,13 @@ namespace AspNetProject.Data.Migrations
                         {
                             Id = "ad376a8f-9eab-4bb9-9fca-30b01540f445",
                             Name = "admin",
-                            NormalizedName = "admin"
+                            NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = "ad376a8f-9eab-4bb9-9fca-30b01540f441",
                             Name = "user",
-                            NormalizedName = "user"
+                            NormalizedName = "USER"
                         });
                 });
 
@@ -356,33 +356,33 @@ namespace AspNetProject.Data.Migrations
                         {
                             Id = "a18be9c0-aa65-4af8-bd17-00bd9344e575",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "95a2ea6f-beff-4fa2-b286-a60be562cb81",
+                            ConcurrencyStamp = "37cae977-02a7-4539-9cf5-50e0d11ab868",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
-                            NormalizedEmail = "admin@gmail.com",
-                            NormalizedUserName = "admin",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMhm8m4qq0O3dYWL0xq7ywnZRPhyOK3g20/yB0ruKYEngq7iCHDIsCnzSdwfWC7AOQ==",
+                            NormalizedEmail = "ADMIN@GMAIL.COM",
+                            NormalizedUserName = "ADMIN@GMAIL.COM",
+                            PasswordHash = "AQAAAAIAAYagAAAAEDv6lQJN3QOYYz28hiGpOzDAlGTgAYjFDQ9c6eclW1O7XjthBS2KnEL35/dzvuMIeQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
-                            UserName = "admin"
+                            UserName = "admin@gmail.com"
                         },
                         new
                         {
                             Id = "a18be9c0-aa65-4af8-bd17-00bd9344e571",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "c3c6ea66-9a90-4a31-bc01-e12ef0f744ce",
+                            ConcurrencyStamp = "55d77988-ffe5-4cdf-92b2-91bb709a8403",
                             Email = "user@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
-                            NormalizedEmail = "user@gmail.com",
-                            NormalizedUserName = "user",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFHpc9Rx7HSY/Z++iGHTOqopW99ZYiMZd7Ov8m73sse8k4cppxaaUiwJrv3T3diaQQ==",
+                            NormalizedEmail = "USER@GMAIL.COM",
+                            NormalizedUserName = "USER@GMAIL.COM",
+                            PasswordHash = "AQAAAAIAAYagAAAAEPmO5F6q4u2arY96P5ICiWSL389l007LIGijfK+5GMmbnWUsgqQmpyXpAKWtKn8CNQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
-                            UserName = "user"
+                            UserName = "user@gmail.com"
                         });
                 });
 

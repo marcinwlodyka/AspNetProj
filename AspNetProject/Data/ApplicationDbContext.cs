@@ -163,13 +163,13 @@ public class ApplicationDbContext : IdentityDbContext
             {
                 Id = adminRoleId,
                 Name = "admin",
-                NormalizedName = "admin"
+                NormalizedName = "ADMIN"
             },
             new IdentityRole
             {
                 Id = userRoleId,
                 Name = "user",
-                NormalizedName = "user"
+                NormalizedName = "USER"
             }
         );
 
@@ -179,10 +179,10 @@ public class ApplicationDbContext : IdentityDbContext
             new IdentityUser
             {
                 Id = adminId,
-                UserName = "admin",
-                NormalizedUserName = "admin",
+                UserName = "admin@gmail.com",
+                NormalizedUserName = "ADMIN@GMAIL.COM",
                 Email = "admin@gmail.com",
-                NormalizedEmail = "admin@gmail.com",
+                NormalizedEmail = "ADMIN@GMAIL.COM",
                 EmailConfirmed = true,
                 PasswordHash = hasher.HashPassword(null, "Admin123#"),
                 SecurityStamp = string.Empty
@@ -190,10 +190,10 @@ public class ApplicationDbContext : IdentityDbContext
             new IdentityUser
             {
                 Id = userId,
-                UserName = "user",
-                NormalizedUserName = "user",
+                UserName = "user@gmail.com",
+                NormalizedUserName = "USER@GMAIL.COM",
                 Email = "user@gmail.com",
-                NormalizedEmail = "user@gmail.com",
+                NormalizedEmail = "USER@GMAIL.COM",
                 EmailConfirmed = true,
                 PasswordHash = hasher.HashPassword(null, "User123#"),
                 SecurityStamp = string.Empty

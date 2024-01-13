@@ -1,0 +1,78 @@
+@using Microsoft.EntityFrameworkCore.Metadata.Internal
+@model IEnumerable<AspNetProject.Models.Book>
+
+
+@{
+    ViewData["Title"] = "Index";
+    ViewData["IsAdmin"] = User.IsInRole("admin");
+}
+
+<h1>Index</h1>
+
+
+
+@{
+    if (ViewBag.IsAdmin)
+    {
+        <p>
+            <a asp-action="Create">Create New</a>
+        </p>
+    }
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BookAuthor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BookType)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BookAuthor.FirstName) @Html.DisplayFor(modelItem => item.BookAuthor.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BookType.Name)
+            </td>
+            <td>
+                @{
+                    if (ViewBag.IsAdmin)
+                    {
+                        <span>
+                            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        </span>
+                    }
+                }
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                @{
+                    if (ViewBag.IsAdmin)
+                    {
+                        <span>
+                            | <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        </span>
+                    }
+                }
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

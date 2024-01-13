@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "srTzlCUiH/XqJ1ACpE7G9nfTmnRHTXfvFj5RuUpvQE+EcGPKbyKxRjoDb/4GYtovF2I+Dse0UZ6FsexlgClV0w==",
+  "dgSpecHash": "k8D165KUoHxrIcNIgaxMMJ57+F4QB3SgMARmVnINJDO4w9OA+lo9ozATEb2T1TLK1EbKlGuYGGQSYEjg8le/1g==",
   "success": true,
   "projectFilePath": "D:\\Users\\PlayM\\RiderProjects\\PizzeriaApp\\AspNetProject\\AspNetProject\\AspNetProject.csproj",
   "expectedPackageFiles": [
@@ -85,7 +85,8 @@
     "C:\\Users\\PlayM\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.15\\microsoft.entityframeworkcore.7.0.15.nupkg.sha512",
     "C:\\Users\\PlayM\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.15\\microsoft.entityframeworkcore.abstractions.7.0.15.nupkg.sha512",
     "C:\\Users\\PlayM\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.15\\microsoft.entityframeworkcore.analyzers.7.0.15.nupkg.sha512",
-    "C:\\Users\\PlayM\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.8\\microsoft.entityframeworkcore.design.7.0.8.nupkg.sha512",
+    "C:\\Users\\PlayM\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.12\\microsoft.entityframeworkcore.design.7.0.12.nupkg.sha512",
+    "C:\\Users\\PlayM\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\7.0.8\\microsoft.entityframeworkcore.inmemory.7.0.8.nupkg.sha512",
     "C:\\Users\\PlayM\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.15\\microsoft.entityframeworkcore.relational.7.0.15.nupkg.sha512",
     "C:\\Users\\PlayM\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\7.0.8\\microsoft.entityframeworkcore.sqlite.7.0.8.nupkg.sha512",
     "C:\\Users\\PlayM\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\7.0.8\\microsoft.entityframeworkcore.sqlite.core.7.0.8.nupkg.sha512",
